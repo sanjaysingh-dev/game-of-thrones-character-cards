@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>People Of GOT</title>
+    <link rel="icon" href="Images/image.png" />
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body>
+    <section
+      class="bg-linear-to-tr from-blue-500 to-purple-700 flex flex-col items-center gap-1.5"
+    >
+      <h1 id="heading" class="text-3xl text-white text-center mt-5">
+        People Of GOT 👑
+      </h1>
+      <input
+        type="text"
+        id="searchInput"
+        class="bg-white p-2 m-5 border-2 rounded-lg"
+        placeholder="Search the people of GOT"
+      />
+    </section>
+
+    <nav>
+      <ul class="flex justify-center gap-2 uppercase">
+        <li class="house-tab" data-house="Starks">Starks</li>
+        <li class="house-tab" data-house="Lannisters">Lannisters</li>
+        <li class="house-tab" data-house="Baratheons">Baratheons</li>
+        <li class="house-tab" data-house="Targaryens">Targaryens</li>
+        <li class="house-tab" data-house="Greyjoys">Greyjoys</li>
+        <li class="house-tab" data-house="Tyrells">Tyrells</li>
+        <li class="house-tab" data-house="Tullys">Tullys</li>
+        <li class="house-tab" data-house="Redwyne">Redwyne</li>
+        <li class="house-tab" data-house="Freys">Freys</li>
+        <li class="house-tab" data-house="Arryns">Arryns</li>
+        <li class="house-tab" data-house="Dothrakis">Dothrakis</li>
+      </ul>
+    </nav>
+
+    <section>
+      <div
+        id="characterContainer"
+        class="grid grid-cols-3 gap-5 p-5 justify-evenly"
+      ></div>
+    </section>
+
+    <template id="characterCard">
+      <div
+        class="bg-emerald-200 rounded-xl p-5 flex flex-col items-center text-center justify-evenly"
+      >
+        <img class="character-image rounded-full h-20 object-cover" />
+
+        <h2 class="character-name text-xl font-bold"></h2>
+
+        <p class="character-house hidden"></p>
+
+        <p class="character-description text-gray-600"></p>
+
+        <a
+          class="character-link inline-block bg-black text-white p-2 mt-3"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Know More!
+        </a>
+      </div>
+    </template>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
