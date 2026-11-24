@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer components {
+    li {
+        @apply text-white bg-black border border-solid rounded-lg p-2 m-2 hover:bg-white hover:text-black transition-colors;
+    }
+}
