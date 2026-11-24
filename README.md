@@ -29,6 +29,7 @@ Users can:
 ### Links
 
 Solution URL: https://github.com/sanjaysingh-dev/game-of-thrones-character-cards
+
 Live Site URL: https://sanjaysingh-dev.github.io/game-of-thrones-character-cards/
 
 ## My process
