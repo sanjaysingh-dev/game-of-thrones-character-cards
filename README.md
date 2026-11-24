@@ -6,6 +6,7 @@
   - [Table of Contents](#table-of-contents)
   - [Overview](#overview)
     - [The project](#the-project)
+    - [Links](#links)
   - [My process](#my-process)
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
@@ -24,6 +25,11 @@ Users can:
 - View Game of Thrones character cards.
 - Explore character information.
 - Interact with a desktop-oriented card layout.
+
+### Links
+
+Solution URL: https://github.com/sanjaysingh-dev/game-of-thrones-character-cards
+Live Site URL: https://sanjaysingh-dev.github.io/game-of-thrones-character-cards/
 
 ## My process
 
